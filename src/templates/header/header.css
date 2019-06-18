@@ -1,0 +1,45 @@
+.header {
+    border: 1px solid red;
+
+    &__text {
+        display: block;
+        text-align: center;
+
+        &_color-blue {
+            color: #39c;
+        }
+
+        &_color-darkblue {
+            color: #336;
+        }
+
+        &_underline {
+            text-decoration: underline;
+        }
+
+        &_align-right {
+            text-align: right;
+        }
+    }
+}
+
+
+
+.logo-text {
+    color: #336;
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+
+    &__medium {
+        font-weight: 700;
+    }
+
+    &__color_gray {
+        color: #99c;
+    }
+
+    &__size_small {
+        font-size: 10px;
+    }
+}
