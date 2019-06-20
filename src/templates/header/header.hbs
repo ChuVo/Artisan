@@ -1,44 +1,81 @@
 <header class="header">
-    <div class="container"> 
+    <div class="container container__height"> 
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 col-md-2 col-xs-2 col_padding col_padding-left-not">
                 <img src="images/logo.png" alt="Artisan" class="logo-img">
-                <span class="logo-text logo-text__medium">проект</span>
-                <span class="logo-text logo-text__color_gray logo-text__size_small">оптовая продажа плитки и сантехники</span>
+                <span class="logo-title">проект</span>
+                <span class="logo-subtitle">оптовая продажа плитки и сантехники</span>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-4 col-xs-4 col_padding">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <span class="header__text header__text_color-blue">Проектный отдел</span>
-                        <a href="tel:+74997242810" class="header__text header__text_color-darkblue">+7 (499) 724 28 10</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <span class="header__text header__text_color-blue">Диллерский отдел</span>
-                        <a href="tel:+74997242810" class="header__text header__text_color-darkblue header__text_underline">+7 (499) 724 28 10</a>
-                        <a href="tel:+74999887393" class="header__text header__text_color-darkblue header__text_underline">+7 (499) 988 73 93</a>
-                    </div>
+                    <contact class="header__phone-wrapper">
+                        <div>
+                            <span class="header__text header__text_color-blue header__text_mb-3">Проектный отдел</span>
+                            <a href="tel:+74997242810" class="header__text header__text_color-darkblue">+7 (499) 724 28 10</a>
+                        </div>
+                        <div>
+                            <span class="header__text header__text_color-blue header__text_mb-3">Диллерский отдел</span>
+                            <a href="tel:+74997242810" class="header__text header__text_color-darkblue header__text_mb-3 header__text_underline header__text_tx-5">+7 (499) 724 28 10</a>
+                            <a href="tel:+74999887393" class="header__text header__text_color-darkblue header__text_underline header__text_tx-5">+7 (499) 988 73 93</a>
+                        </div>
+                    </contact>                    
                 </div>
-                <span class="header__text header__text_color-blue header__text_align-right">Не дозвонились? Мы перезвоним!</span>             
+                <span class="header__text header__text_pr-6 text-asq header__text_color-blue header__text_underline header__text_align-right">Не дозвонились? Мы перезвоним!</span>             
             </div>            
-            <div class="col-sm-4">
-                <div class="header__room">
-                    <div class="room__lk">                        
+            <div class="col-sm-4 col-md-4 col-xs-4 col_padding">
+                <div class="header__room room">
                         <button class="room__btn">
-                            <img src="images/sing.png" alt="Log in to your personal account">
+                            <img src="images/sing.png" alt="Log in to account" class="room__img-sing">
                             Вход в личный кабинет
                         </button>
-                    </div>
-                    <span class="header__text header__text_color-blue header__text_align-right">Заявка на сотрудничество</span>
+                    <span class="room__cooperation">Заявка на сотрудничество</span>
                     <div class="room__send-post">
-                        
-                        <a "mailto:info@artisan-project.ru" target="_blank" class="header__text header__text_color-blue">
-                            <img src="images/post.png" alt="Write a letter" class="room__send-img">
+                        <img src="images/post.png" alt="Send us to email" class="room__img-post">
+                        <a "mailto:info@artisan-project.ru" target="_blank" class="room__email">
                             info@artisan-project.ru
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2" style="background-color:lavenderblush;">kard</div>
+            <div class="col-sm-2 col-md-2 col-xs-2 col_padding-right-not ">
+                <div class="header__card card">
+                    <div class="card__icon"></div>                    
+                    <div class="card__wrapper">
+                        <span class="card__text">В вашей корзине</span>
+                        <a class="card__text card__text_underline">9999 товаров</a>
+                        <span class="card__text">на <span class="card__text_bold">9 999 999 р.</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <hr class="header__gorizontal">
+    <div class="container">
+        <div class="menu">
+            <div class="menu__icon icon">
+                <span class="icon__line"></span>
+            </div>
+            <nav class="menu__nav">
+                <a href="#" class="menu__link">О компании</a>
+                <a href="#" class="menu__link">Сотрудничество</a>
+                <a href="#" class="menu__link">Плитка</a>
+                <a href="#" class="menu__link">Сантехника</a>
+                <a href="#" class="menu__link">Сопутствующие товары</a>
+                <a href="#" class="menu__link">Мерчендайзинг</a>
+                <a href="#" class="menu__link">Транспортные услуги</a>
+                <a href="#" class="menu__link">Контакты</a>
+            </nav>
         </div>
     </div>
+    <div class="header__search search">
+        <div class="container">
+            <div class="search__wrapper">
+                <input class="search__field" type="search" name="form-search" placeholder="Поиск по товарам, брендам, категориям...">
+                <button class="search__btn">
+                    <span class="search__text">Найти</span></button>
+                <a class="search__filter">Расширенный поиск</a>
+            </div>
+            
+        </div>
+    </div>    
 </header>
