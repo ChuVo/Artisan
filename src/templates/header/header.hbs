@@ -1,45 +1,47 @@
 <header class="header">
     <div class="container container__height"> 
         <div class="row">
-            <div class="col-sm-2 col-md-2 col-xs-2 col_padding col_padding-left-not">
+            <div class="col-xs-3 col-sm-2 col-md-2 col_padding col_padding-left-not">
                 <img src="images/logo.png" alt="Artisan" class="logo-img">
                 <span class="logo-title">проект</span>
                 <span class="logo-subtitle">оптовая продажа плитки и сантехники</span>
             </div>
-            <div class="col-sm-4 col-md-4 col-xs-4 col_padding">
+            <div class="col-xs-3 col-sm-5 col-md-4 col-lg-4 col-xl-4 col_padding">
                 <div class="row">
                     <contact class="header__phone-wrapper">
-                        <div>
+                        <div id="phone">
                             <span class="header__text header__text_color-blue header__text_mb-3">Проектный отдел</span>
                             <a href="tel:+74997242810" class="header__text header__text_color-darkblue">+7 (499) 724 28 10</a>
                         </div>
                         <div>
-                            <span class="header__text header__text_color-blue header__text_mb-3">Диллерский отдел</span>
+                            <span class="header__text header__text_color-blue header__text_mb-3">Дилерский отдел</span>
                             <a href="tel:+74997242810" class="header__text header__text_color-darkblue header__text_mb-3 header__text_underline header__text_tx-5">+7 (499) 724 28 10</a>
                             <a href="tel:+74999887393" class="header__text header__text_color-darkblue header__text_underline header__text_tx-5">+7 (499) 988 73 93</a>
                         </div>
                     </contact>                    
                 </div>
-                <span class="header__text header__text_pr-6 text-asq header__text_color-blue header__text_underline header__text_align-right">Не дозвонились? Мы перезвоним!</span>             
+                <span class="header__callback">Не дозвонились? Мы перезвоним!</span>             
             </div>            
-            <div class="col-sm-4 col-md-4 col-xs-4 col_padding">
+            <div class="col-xs-4 col-sm-3 col-md-4 col-xl-4 col_padding">
                 <div class="header__room room">
                         <button class="room__btn">
                             <img src="images/sing.png" alt="Log in to account" class="room__img-sing">
-                            Вход в личный кабинет
+                            <span class="room__btn-title">Вход в личный кабинет</span>
                         </button>
                     <span class="room__cooperation">Заявка на сотрудничество</span>
-                    <div class="room__send-post">
-                        <img src="images/post.png" alt="Send us to email" class="room__img-post">
+                    <div class="room__send-post">                        
                         <a "mailto:info@artisan-project.ru" target="_blank" class="room__email">
-                            info@artisan-project.ru
+                            <img src="images/post.png" alt="Send us to email" class="room__img-post">
+                            <span class="room__text-post">info@artisan-project.ru</span> 
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2 col-md-2 col-xs-2 col_padding-right-not ">
+            <div class="col-xs-2 col-sm-1  col-md-2 col-lg-2 col-xl-2 col_padding col_padding-right-not ">
                 <div class="header__card card">
-                    <div class="card__icon"></div>                    
+                    <div class="card__icon">
+                        <img class="card__img" src="images/bascket.png" alt="Enter to your bascket">
+                    </div>                    
                     <div class="card__wrapper">
                         <span class="card__text">В вашей корзине</span>
                         <a class="card__text card__text_underline">9999 товаров</a>
@@ -52,7 +54,9 @@
     <hr class="header__gorizontal">
     <div class="container">
         <div class="menu">
-            <div class="menu__icon icon">
+            <div class="menu__icon icon">                
+                <span class="icon__line"></span>
+                <span class="icon__line"></span>
                 <span class="icon__line"></span>
             </div>
             <nav class="menu__nav">
@@ -74,8 +78,7 @@
                 <button class="search__btn">
                     <span class="search__text">Найти</span></button>
                 <a class="search__filter">Расширенный поиск</a>
-            </div>
-            
+            </div>            
         </div>
     </div>    
 </header>
